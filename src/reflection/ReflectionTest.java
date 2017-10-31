@@ -8,11 +8,7 @@ import java.lang.reflect.*;
  */
 public class ReflectionTest {
 
-    public static void main(String[] args) {
-        String name;
-        Scanner in = new Scanner(System.in);
-        System.out.println("Enter class name here: ");
-        name = in.next();
+    public void printInfo(String name) {
 
         try {
             //print class name and superclass name (if != Object)
